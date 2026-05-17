@@ -41,6 +41,7 @@ tk.Button(root, text="Subtract", command=lambda: calculate("sub")).pack(pady=5)
 tk.Button(root, text="Multiply", command=lambda: calculate("mul")).pack(pady=5)
 tk.Button(root, text="Divide", command=lambda: calculate("div")).pack(pady=5)
 
+
 # Result
 result_label = tk.Label(root, text="Result: ")
 result_label.pack(pady=10)
